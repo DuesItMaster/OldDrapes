@@ -1,0 +1,133 @@
+#glystro{
+    display: flex;
+    width: calc(100% - 64px);
+    margin-left: 64px;
+    height: 100%;
+}
+#glystro .container-left{
+    width: 35%;
+    display: inline-block;
+}
+#glystro .container-right {
+    width: 65%;
+    display: inline-block;
+}
+#content #glystro .container-right-top button.active{
+    background-color: #fff;
+    color: #000000;
+}
+#content #glystro .container-right-top .twitter-typeahead{
+    width: 100%;
+}
+#content #glystro .container-right-top label,#content #glystro .container-right-top #autocomplete1,#content #glystro .container-right-top .twitter-typeahead input[type="text"]{
+    width: 100% !important;
+}
+#content #glystro .btn_cantidad{
+    background-color: #242527;
+    color: #fff;
+    width: 30px;
+    border: 0px;
+    height: 24px;
+    margin: 1px;
+    padding: 4px;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+#content #glystro .container-right-top .cantidades{
+  margin: 1px;
+}
+#content #glystro .container-right-top #cantidadcortinero{
+  width: 42px;
+  height: 24px;
+  margin: 1px;
+  padding: 4px;
+  box-sizing: content-box;
+  display: none;
+  vertical-align: middle;
+}
+.panel_inferior{
+    background-color: rgba(0,0,0,.52);
+    bottom: 0;
+    right: 0;
+    width: 85%;
+    position: fixed;
+    color: #fff;
+    padding: 20px 45px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 0px;
+    backdrop-filter: blur(2px);
+}
+.panel_inferior #precios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: center;
+}
+.panel_inferior #precios .precio_total label{
+    display: block;
+    float: unset;
+}
+.panel_inferior #precios div,.panel_inferior #precios img{
+    float: left;
+}
+.panel_inferior #precios .label_total{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 15px;
+}
+.panel_inferior #precios .label_cantidad,.panel_inferior button{
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 22px;
+}
+.panel_inferior img{
+    width: 22px;
+    height: 28px;
+    margin: 10px;
+    margin-top: 10px;
+}
+.panel_inferior div{
+    float: left;
+}
+.panel_inferior #BtnD,.panel_inferior #cargando{
+    float: right;
+}
+.panel_inferior button{
+    border: none;
+    background: transparent;
+    float: right;
+}
+.tabcontent{
+    min-height: 66%;
+}
+#content #glystro .tabcontent h3{
+    margin: 0px;
+    margin-top: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+#glystro .container-left .card-outlined{
+    padding: 0px;
+    margin: 0px;
+}
+#content .twitter-typeahead .tt-dropdown-menu{
+    background-color: #f3f2f2;
+    border: 1px solid #282828;
+    width: 100%;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#content .twitter-typeahead .tt-dropdown-menu .tt-suggestion:hover, #content .twitter-typeahead .tt-dropdown-menu .tt-suggestion:active{
+    background-color: #fff;
+}
+#anchocortinero{
+    width: 80%;
+}
+
+.panel_inferior #precios .label_total,
+.panel_inferior #precios .label_cantidad {
+    color: #fff !important;
+}

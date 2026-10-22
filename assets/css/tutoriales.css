@@ -1,0 +1,160 @@
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.menubar-hoverable #content{
+    background: #fff !important;
+}
+.tutoriales_container{
+    padding-left: 65px;
+    height: 100%;
+    overflow: auto;
+}
+.videos_container{
+    padding-left: 65px;
+    height: 100%;
+    overflow: auto;
+    width: 96%;
+}
+.tutoriales_container h1{
+    color: #929292;
+    font-size: 29px;
+}
+.tutoriales_container .card_container{
+    display: block;
+}
+.tutoriales_container .card_container .card{ 
+    width: 47%;
+    margin: 1%;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.tutoriales_container .card_container .card_medidas{
+    padding: 2%;
+}
+.tutoriales_container .card_container .card_catalogo{
+    width: 95%;
+    /*box-shadow: none;*/
+}
+.tutoriales_container .card_container .card_left{
+    width: 65%;
+    display: inline-block;
+    float: left;
+}
+.tutoriales_container .card_container .card_catalogo .card_left{
+    width: 35%;
+    display: inline-block;
+    float: left;
+    margin: 18px 25px;
+}
+.tutoriales_container .card_container .card_left img{
+    width: 370px;
+}
+.tutoriales_container .card_container .card_left .toma_medidas{
+    width: 94%;
+}
+.tutoriales_container .card_container .card_catalogo .card_right{
+    width: 65%;
+    display: inline-block;
+    float: right;
+}
+.tutoriales_container .card_container .card_catalogo .card_right img{
+    width: 200px;
+    top: 0;
+    right: unset;
+}
+.tutoriales_container .card_container .card_catalogo .card_right .img_catalogo{
+    width: 70%;
+}
+.tutoriales_container .card_container .card_catalogo .card_right .img_telas{
+    width: 20%;
+    right: 20%;
+}
+.tutoriales_container .card_container .separador_vertical{
+    border-left: 1px solid #000;
+    height: 80%;
+    left: 61%;
+    position: absolute;
+    top: 10%;
+}
+.tutoriales_container .card_container .card_right{
+    width: 35%;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin: auto;
+    position: absolute;
+    top: 3%;
+}
+.tutoriales_container .card_container .card_right img{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+}
+.tutoriales_container .card_container .card_right .cortinero{
+    margin-top: 48%;
+    cursor: pointer;
+}
+.tutoriales_container .card_container .card_right label{
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+.tutoriales_container .card_container .card_right .tipo_cortinero{
+    font-size: 25px;
+    cursor: pointer;
+}
+.tutoriales_container .card_container .card_right .tipo_cortinero{
+    font-size: 25px;
+    cursor: pointer;
+}
+.tutoriales_container .card_container .card_catalogo .card_left .titulo{
+    color: #808080;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 100;
+    margin: 0;
+    width: 100%;
+}
+.tutoriales_container .card_container .card_catalogo .card_left .subtitulo{
+    color: #bbbbbb;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 100;
+    font-style: italic;
+    width: 100%;
+}
+.tutoriales_container .card_container .card_catalogo .card_left .info_adicional{
+    color: #808080;
+    font-size: 20px;
+    font-weight: 100;
+    width: 100%;
+    margin: 30px 0px;
+}
+.tutoriales_container .card_container .card_catalogo .card_left .link{
+    color: #808080;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: underline;
+    width: 100%;
+    margin: 30px 0px;
+}
+.tutoriales_container .card_container .card_catalogo .card_left .promocion{
+    color: #f3959b;
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: underline;
+    width: 100%;
+}
+.tutoriales_container .card_container .card_left .overlay{
+    display: block;
+    width: 61%;
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.1951374299719888) 0%, rgba(255,255,255,0) 77%, rgba(255,255,255,0) 100%);
+}

@@ -1,0 +1,65 @@
+.menubar-hoverable #content{
+    background: #f7f8f8;
+}
+.reporte-distribuidores{
+    padding-left: 120px;
+}
+.distribuidor_form{
+    background: #fff;
+    color: #808080;
+}
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: none;
+}
+h1{
+    font-size: 28px;
+    color: #808080;
+}
+h2{
+    color: #808080;
+}
+.inputs{
+    padding: 13px;
+    border-radius: 25px;
+    border: 1px solid #dfdfdf;
+    color: #888;
+}
+.inputs::placeholder{
+    color: #888;
+}
+.cliente{
+    width: 100%;
+    margin-left: 1.5%;
+}
+.folio{
+    width: 60%;
+}
+.separador{
+    height: 1px;
+    background: #b8b8b8;
+    width: 98%;
+    margin: auto;
+}
+.btn-primary, .btn-primary:hover{
+    background: #3685ff;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 15px;
+    padding: 9px 50px;
+    border: none;
+}
+.form-inline .form-group{
+    margin: 0;
+}
+.checkbox-styled{
+    background: #f8f8f8;
+    margin: 5px;
+    padding: 7px 9px;
+    border-radius: 55px;
+    margin-right: 0px !important;
+}
+.card-body .checkbox-styled:not(ie8) input ~ span, .card-body .radio-styled:not(ie8) input ~ span{
+    padding-left: 25px;
+}

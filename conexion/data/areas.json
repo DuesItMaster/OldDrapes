@@ -1,0 +1,12 @@
+[
+  { "label": "Recamara Principal", "value": "Recamara Principal" },
+  { "label": "Sala", "value": "Sala" },
+  { "label": "Cocina", "value": "Cocina" },
+  { "label": "Comedor", "value": "Comedor" },
+  { "label": "Estudio", "value": "Estudio" },
+  { "label": "Recamara", "value": "Recamara" },
+  { "label": "Sala de estar", "value": "Sala de estar" },
+  { "label": "Pasillo", "value": "Pasillo" },
+  { "label": "Escaleras", "value": "Escaleras" },
+  { "label": "Oficina", "value": "Oficina" }
+]

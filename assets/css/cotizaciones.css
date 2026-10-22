@@ -1,0 +1,56 @@
+#content .cotizaciones_header{
+    background-color: #161719;
+    padding-left: 70px;
+    height: 20%;
+}
+#content .cotizaciones_body{
+    background-color: #FFF;
+    padding-left: 70px;
+    margin: 0;
+    height: 80%;
+}
+#content .cotizaciones_header .opciones{
+    display: flex;
+    align-items: center;
+}
+#content .cotizaciones_header h1{
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+#content .cotizaciones_body h2{
+    margin: 0 auto;
+}
+#content .cotizaciones_header select{
+    display: inline-block;
+    color: #fff;
+    background-color: #242527;
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+#content .cotizaciones_header label{
+    display: inline-block;
+    color: #fff;
+    float: left;
+    margin: 0;
+}
+#content .cotizaciones_header .fechas{
+    display: inline-block;
+}
+#content .cotizaciones_header .fechas label{
+    float: unset;
+    display: block;    
+}
+#content .cotizaciones_header .fechas .inputs{
+    display: block;
+    float: left;
+    color: #fff;
+}
+#content .cotizaciones_header .fechas input[type="date"]{
+    width: 100px;
+    background-color: #242527;
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+}

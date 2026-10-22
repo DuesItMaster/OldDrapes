@@ -1,0 +1,64 @@
+.menubar-hoverable #content{
+    background: #f7f8f8;
+    height: 100%;
+    overflow: auto;
+}
+.distribuidores_form{
+    padding-left: 120px;
+}
+.distribuidor_form{
+    background: #fff;
+    color: #808080;
+}
+.card{
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 20px;
+}
+h1{
+    font-size: 28px;
+    color: #808080;
+}
+h2{
+    color: #808080;
+}
+.inputs{
+    padding: 13px;
+    border-radius: 25px;
+    border: 1px solid #dfdfdf;
+    color: #888;
+}
+.inputs::placeholder{
+    color: #888;
+}
+.nombre{
+    width: 100%;
+    margin-left: 1.5%;
+}
+.usuario, .contrasena, .tipo{
+    width: 100%;
+    margin-left: 1.5%;
+}
+.correo{
+    width: 70%;
+    margin-left: 1.5%;
+}
+.clavesap{
+    width: 26%;
+    margin-left: 1.5%;
+}
+.separador{
+    height: 1px;
+    background: #b8b8b8;
+    width: 98%;
+    margin: auto;
+}
+.distribuidores_form .btn-primary, .distribuidores_form .btn-primary:hover{
+    background: #3685ff;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 15px;
+    padding: 9px 50px;
+    border: none;
+    margin: auto;
+    display: block;
+}

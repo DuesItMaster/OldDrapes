@@ -1,0 +1,48 @@
+#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .ajax_block_product .product-container .product-image-container {
+    height: 230px;
+    width: 100%;
+}#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .tb-cort .product-container .product-image-container {
+    height: 170px;
+}
+#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .ajax_block_product .price_container {
+    background: rgba(0,0,0,0.6);
+    margin: 0;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif !important;
+}
+#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .ajax_block_product{
+    margin: 1px;
+    box-sizing: border-box;
+}
+#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .col-xs-4 {
+    width: 31%;
+}
+#content .background_cortinas #page #uhu_tj_9502 #more_info_sheets #idTab_0 .col-xs-4 {
+    width: 24.6%;
+}
+#content .background_cortinas #page #uhu_tj_9502 #more_info_sheets #idTab_0 .tb-cort {
+    width: 24.6%;
+}
+
+#content #page #uhu_tj_9502 #more_info_sheets .row {
+    margin-left: 11px;
+}
+
+/* Zoom effect for selection items that use background-image
+   Applies to elements with class `zoom` (e.g. the cortineros) */
+#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .ajax_block_product.zoom {
+    -webkit-transition: transform .25s ease, box-shadow .25s ease;
+    -moz-transition: transform .25s ease, box-shadow .25s ease;
+    transition: transform .25s ease, box-shadow .25s ease;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+}
+#content #page #uhu_tj_9502 #more_info_sheets #idTab_0 .ajax_block_product.zoom:hover {
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+    z-index: 5;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}

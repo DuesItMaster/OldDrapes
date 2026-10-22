@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Birds";
+    src: url(../../fonts/Birds.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Deco";
+    src: url(../../fonts/Market_Deco.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Atlantic";
+    src: url(../../fonts/Atlantic_Cruise-Demo.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "CuprumB";
+    src: url(../../fonts/Cuprum-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Cuprum";
+    src: url(../../fonts/Cuprum-Regular.ttf) format("truetype");
+}
+
+header .nav {line-height:45px;}
+header .row #logo {font-family:Gruppo;}
+header .row #logo {font-size:60px;}
+header .row #logo {text-align:center;}
+header .row #logo {line-height:140px;}
+#header .menu ul.nav_item li {font-family:Dosis;}
+#header .menu ul.nav_item li {font-size:24px;}
+#header .menu ul.nav_item li {line-height:56px;}
+#header .menu .nav_item li dl dd .s_title_block {font-family:Dosis;}
+#header .menu .nav_item li dl.pop_adver p {font-family:Dosis;}
+#header .menu .nav_item li dl dd .product_desc {font-size:12px;}
+#uhuslider .block_content ul li h2 {font-family:Dosis;}
+#uhuslider .block_content ul li h2 {font-size:5.0vw;}
+#uhuslider .block_content ul li h2 {text-align:center;}
+#uhuslider .block_content ul li h2 {text-transform:uppercase;}
+#uhuslider .block_content ul li h3 {font-family:Dosis;}
+#uhuslider .block_content ul li h3 {font-size:2.2vw;}
+#uhuslider .block_content ul li h3 {text-align:center;}
+#uhuslider .block_content ul li h3 {text-transform:capitalize;}
+#uhuslider .block_content ul li h4 {font-family:Dosis;}
+#uhuslider .block_content ul li h4 {font-size:1.8vw;}
+#uhuslider .block_content ul li h4 {text-align:center;}
+#uhuslider .block_content ul li h5 {font-family:Dosis;}
+#uhuslider .block_content ul li h5 {font-size:1.5vw;}
+#uhuslider .block_content ul li h5 {text-align:center;}
+#uhuslider .block_content ul li h5 {text-transform:lowercase;}
+#uhuslider .block_content ul li span {font-size:16px;}
+#uhuslider .block_content ul li h6 {text-align:center;}
+#uhu_xp_9501 h4, #uhu_xp_9502 h4 {font-family:Dosis;}
+#uhu_xp_9501 h4, #uhu_xp_9502 h4 {font-size:28px;}
+#uhu_xp_9501 h4, #uhu_xp_9502 h4 {text-align:center;}
+#uhu_xp_9501 h4, #uhu_xp_9502 h4 {text-transform:uppercase;}
+#uhu_xp_9501 h4, #uhu_xp_9502 h4 {line-height:58px;}
+#uhu_xp_9501 .block_content ul li h5, #uhu_xp_9502 .block_content ul li h5 {font-family:Dosis;}
+#uhu_xp_9501 .block_content ul li h5, #uhu_xp_9502 .block_content ul li h5 {font-size:14px;}
+#uhu_xp_9501 .block_content ul li h5, #uhu_xp_9502 .block_content ul li h5 {text-align:center;}
+#uhu_xp_9501 .block_content ul li h5, #uhu_xp_9502 .block_content ul li h5 {line-height:40px;}
+#uhu_xp_9501 .block_content ul li p.price_container, #uhu_xp_9502 .block_content ul li p.price_container {font-family:Dosis;}
+#uhu_xp_9501 .block_content ul li p.price_container, #uhu_xp_9502 .block_content ul li p.price_container {font-size:16px;}
+#uhu_xp_9501 .block_content ul li p.price_container, #uhu_xp_9502 .block_content ul li p.price_container {text-align:center;}
+#uhu_tj_9502 h4 {font-family:Dosis;}
+#uhu_tj_9502 h4 {font-size:28px;}
+#uhu_tj_9502 h4 {text-align:center;}
+#uhu_tj_9502 h4 {text-transform:uppercase;}
+#uhu_tj_9502 h4 {line-height:58px;}
+#center_column  #uhu_tj_9502 .nav-tabs {font-family:Dosis;}
+#center_column  #uhu_tj_9502 .nav-tabs {font-size:18px;}
+#center_column  #uhu_tj_9502 .nav-tabs {text-align:center;}
+#center_column  #uhu_tj_9502 .nav-tabs {line-height:48px;}
+#uhu_tj_9502 #more_info_sheets ul.pd li h5 {font-family:Dosis;}
+#uhu_tj_9502 #more_info_sheets ul.pd li h5 {font-size:14px;}
+#uhu_tj_9502 #more_info_sheets ul.pd li h5 {text-align:center;}
+#uhu_tj_9502 #more_info_sheets ul.pd li h5 {line-height:43px;}
+#uhu_tj_9502 #more_info_sheets ul.pd li p.price_container {font-family:Cuprum;}
+#uhu_tj_9502 #more_info_sheets ul.pd li p.price_container {font-size:19px;}
+#uhu_tj_9502 #more_info_sheets ul.pd li p.price_container {line-height:40px;}
+#uhu_cp_1901 .title_block {font-family:Dosis;}
+#uhu_cp_1901 .title_block {font-size:30px;}
+#uhu_cp_1901 .title_block {text-align:center;}
+#uhu_cp_1901 .title_block {line-height:58px;}
+#uhu_cp_1901 .block_content ul li h5 {font-family:Dosis;}
+#uhu_cp_1901 .block_content ul li h5 {font-size:14px;}
+#uhu_cp_1901 .block_content ul li p.price_container {font-family:Dosis;}
+#uhu_cp_1901 .block_content ul li p.price_container {font-size:16px;}
+#uhu_cp_1901 .block_content ul li p.price_container {line-height:20px;}
+.footer-container .title_block,  .footer-container h4,  .footer-container #footer h4,  #footer #newsletter_block_left h4 {font-size:16px;}
+.footer-container .title_block,  .footer-container h4,  .footer-container #footer h4,  #footer #newsletter_block_left h4 {line-height:35px;}
+#uhu_reassure_column ul li h3 {font-size:16px;}
+#uhu_reassure_column ul li h3 {text-transform:uppercase;}
+#uhu_reassure_nav ul li h3, #uhu_reassure_footer ul li h3 {font-family:Buda;}
+#uhu_reassure_nav ul li h3, #uhu_reassure_footer ul li h3 {font-size:14px;}
+#uhu_reassure_nav ul li h3, #uhu_reassure_footer ul li h3 {text-align:center;}
+#uhu_reassure_nav ul li h3, #uhu_reassure_footer ul li h3 {text-transform:capitalize;}
+#uhu_reassure_nav ul li h3, #uhu_reassure_footer ul li h3 {line-height:22px;}
+#uhu_reassure_nav ul li h3 {font-family:Buda;}
+#uhu_reassure_home ul li h3 {font-family:Arimo;}
+#uhu_reassure_home ul li h3 {font-size:17px;}
+#uhu_reassure_home ul li h3 {text-transform:capitalize;}
+#uhu_reassure_home ul li h3 {line-height:40px;}

@@ -1,0 +1,82 @@
+.abrirModal{
+    font-weight: bold; 
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#modalTitulo {
+    font-weight: bold;
+}
+
+.cuerpoModal {
+    width: 100%;
+}
+
+#infAreas {
+    width: 80%;
+    height: 20%;
+    display: inline;
+}
+
+#infAreas label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#infAreas input{
+    border: 3px solid rgb(79, 122, 85);
+    border-radius: 5px;
+    width: 460px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#infAreas input:hover{
+    border-color:  rgb(143, 204, 151);
+}
+
+.etiquetasArea{
+    margin: 5px;
+}
+
+#masAreas {   
+    width: 130px; 
+    height: 40px;
+    background: rgba(30, 72, 199, 0.8);
+    color: seashell;        
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.modal-content button{
+    transition: background-color .5s;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold; 
+    border: none;    
+}
+#masAreas:hover {    
+    background: rgb(30, 72, 199);
+}
+
+.eliminarArea{
+    background-color: #f44336;    
+    color: white;
+}
+
+.cerrarModal{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#guardarArea{
+    border-radius: 5px;
+    background-color: rgba(37, 160, 53, 0.884);
+}
+
+#guardarArea:hover{
+    background-color:rgb(34, 146, 49);
+}

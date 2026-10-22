@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#content{
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding-top: 0px;
+    background-color: #E5E6E6;
+    height: 100%;
+}
+#content #columns .row{
+    margin-right: 0;
+}
+.menubar-hoverable #menubar{
+    position: fixed;
+    z-index: 1004;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 64px;
+    color: rgba(12, 12, 12, 0.85);
+}
+.headerbar .headerbar-left .header-nav{
+    margin-left: 0px;
+}
+
+@media (min-width: 469px) {
+    .menubar-pin #menubar {
+      width: 300px;
+    }
+}
+#columns #columns_home #center_column{
+    padding-right: 0px;
+}
+#columns #columns_home #center_column #uhu_tj_9503{
+    height: 100%;
+    width: calc(50% - 50px);
+    overflow: hidden;
+    padding: 0;
+}
+#columns #columns_home #center_column #uhu_tj_9503 #item_selected{
+    width: 100%;
+    padding-right: 0px;
+    min-height: 753px;
+    max-height: 850px;
+}
+#columns #columns_home #center_column #uhu_tj_9503 #item_selected img{
+    width: 100%;
+}
+.cortineros #columns #columns_home #center_column #uhu_tj_9503 #item_selected img{
+    width: 100%;
+}

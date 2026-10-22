@@ -1,0 +1,59 @@
+.menubar-hoverable #content{
+    background: #f7f8f8;
+}
+.clientes_form{
+    padding-left: 120px;
+}
+.cliente_form{
+    background: #fff;
+    color: #808080;
+}
+h1{
+    font-size: 28px;
+    color: #808080;
+}
+.inputs{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #dfdfdf;
+    color: #888;
+}
+.inputs::placeholder{
+    color: #888;
+}
+.nombre, .calle{
+    width: 50%;
+    margin-left: 1.5%;
+}
+.telefono, .correo, .cp, .numero{
+    width: 21.5%;
+    margin-left: 1.5%;
+}
+/*.correo{
+    width: 22%;
+    margin-left: 1.5%;
+}*/
+.estado, .ciudad, .localidad, .hora, .atencion, .contacto{
+    width: 20.5%;
+    margin-left: 1.5%;
+}
+.colonia, .sucursal{
+    width: 30%;
+    margin-left: 1.5%;
+}
+.separador{
+    height: 1px;
+    background: #b8b8b8;
+    width: 98%;
+    margin: auto;
+}
+.btn-primary, .btn-primary:hover{
+    background: #3685ff;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 15px;
+    padding: 9px 50px;
+    border: none;
+    margin: auto;
+    display: block;
+}

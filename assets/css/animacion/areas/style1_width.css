@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1200px) {
+header .nav {width:100%;}
+header .content {width:100%;}
+#header .menu {width:100%;}
+#columns #columns_top,  #columns #slider_row {width:100%;}
+#columns #top_banner {width:100%;}
+#columns #bottom_banner {width:100%;}
+#columns #columns_home {width:100%;}
+.footer-container .footer_nav {width:100%;}
+.footer-container #footer {width:100%;}
+.footer-container .footer_banner {width:100%;}
+.advertising .block_content {max-width:1170px;}
+#uhu_reassure_column .block_content {max-width:1170px;}
+#columns #top_banner .left_column {max-width:1170px;}
+#columns #top_banner .right_column {max-width:1170px;}
+#columns #top_banner .center_column {max-width:1170px;}
+#center_column {max-width:1170px;}
+header .content .row {width:100%;}
+#header .menu {position:static;}
+ }
